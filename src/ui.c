@@ -154,33 +154,33 @@ static struct page pages[UI_NUM_PAGES];
 
 #define UI_TRANS             0x00000000
 #define UI_WHITE             0xffffffff
-#define UI_LIGHT_BLUE        0xffa9583e
-#define UI_DARK_BLUE         0xff201e19
-#define UI_DARKER_BLUE       0xff181611
-#define UI_LIGHT_RED         0xff3e3ea9
+#define UI_LIGHT_RED        0xffff0000
+#define UI_DARK_RED         0xffbf0000
+#define UI_DARKER_RED       0xff800000
+#define UI_LIGHT_RED2         0xff3e3ea9
 
-#define UI_WIN_BG            UI_DARK_BLUE
+#define UI_WIN_BG            UI_DARK_RED
 #define UI_WIN_TEXT          0xffd0d0d0
-#define UI_CHILD_BG          UI_DARKER_BLUE
+#define UI_CHILD_BG          UI_DARKER_RED
 #define UI_CHILD_TEXT        UI_WIN_TEXT
 #define UI_MODAL_BG          0x80000000
 #define UI_NAV_HIGHLIGHT     0xc0ffffff
-#define UI_BTN_BG            UI_DARKER_BLUE
-#define UI_BTN_ACTIVE_BG     UI_LIGHT_BLUE
-#define UI_BTN_HOVER_BG      UI_LIGHT_BLUE
+#define UI_BTN_BG            UI_DARKER_RED
+#define UI_BTN_ACTIVE_BG     UI_LIGHT_RED
+#define UI_BTN_HOVER_BG      UI_LIGHT_RED
 #define UI_BTN_TEXT          UI_WIN_TEXT
-#define UI_BTN_NEG_BG        UI_DARKER_BLUE
-#define UI_BTN_NEG_ACTIVE_BG UI_LIGHT_RED
-#define UI_BTN_NEG_HOVER_BG  UI_LIGHT_RED
+#define UI_BTN_NEG_BG        UI_DARKER_RED
+#define UI_BTN_NEG_ACTIVE_BG UI_LIGHT_RED2
+#define UI_BTN_NEG_HOVER_BG  UI_LIGHT_RED2
 #define UI_BTN_NEG_TEXT      UI_WIN_TEXT
 
 #define UI_TAB_BG            UI_TRANS
 #define UI_TAB_TEXT          UI_WIN_TEXT
-#define UI_TAB_ACTIVE_BG     UI_LIGHT_BLUE
+#define UI_TAB_ACTIVE_BG     UI_LIGHT_RED
 #define UI_TAB_HOVERED_BG    UI_TAB_BG
 #define UI_SEL_BG            UI_TRANS
 #define UI_SEL_TEXT          UI_WIN_TEXT
-#define UI_SEL_ACTIVE_BG     UI_LIGHT_BLUE
+#define UI_SEL_ACTIVE_BG     UI_LIGHT_RED
 #define UI_SEL_HOVERED_BG    UI_SEL_BG
 
 #define UI_PAGE_MAX_WIDTH    VW(70.0f)
