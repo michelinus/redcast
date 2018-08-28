@@ -154,9 +154,9 @@ static struct page pages[UI_NUM_PAGES];
 
 #define UI_TRANS             0x00000000
 #define UI_WHITE             0xffffffff
-#define UI_LIGHT_RED        0xffff0000
-#define UI_DARK_RED         0xffbf0000
-#define UI_DARKER_RED       0xff800000
+#define UI_LIGHT_RED        0xff0000ff
+#define UI_DARK_RED         0xff0000bf
+#define UI_DARKER_RED       0xff000080
 #define UI_LIGHT_RED2         0xff3e3ea9
 
 #define UI_WIN_BG            UI_DARK_RED

@@ -1003,7 +1003,7 @@ TCHAR *GetThisPath(TCHAR *dest, size_t destSize) {
 }
 
 int main(int argc, char **argv) {
-  LOG_INFO("redcast " "v1.0.6b-git");
+  LOG_INFO("redcast " "v1.0.7a-git");
 
 #if PLATFORM_ANDROID
   const char *appdir = SDL_AndroidGetExternalStoragePath();
