@@ -2,7 +2,7 @@
 
 Redcast is a SEGA Dreamcast emulator written in C.
 
-![Screenshot](https://dumpshare.net/images/5358212software.png)
+![Screenshot](https://dumpshare.net/images/378108software.png)
 
 ## Code Status: [![Build status](https://ci.appveyor.com/api/projects/status/gbvm8wd6a8pk812c?svg=true)](https://ci.appveyor.com/project/michelinus/redcast)
  
