@@ -1252,13 +1252,13 @@ static void ui_games_build(struct ui *ui) {
 
   mutex_lock(ui->scan_mutex);
 
-  /* background */
+  /* background 
   {
     float bg_height = VH(34.7f);
     struct ImVec2 bg_min = {VW(0.0f), (VH(100.0f) - bg_height) / 2.0f};
     struct ImVec2 bg_max = {VW(100.0f), bg_min.y + bg_height};
     ImDrawList_AddRectFilled(list, bg_min, bg_max, UI_WIN_BG, 0.0f, 0);
-  }
+  } */
 
   /* scan status */
   if (ui->scanning) {
