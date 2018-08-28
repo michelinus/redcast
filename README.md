@@ -33,5 +33,5 @@ Redcast is a SEGA Dreamcast emulator written in C.
 Basically all the work was done by [redream](https://github.com/inolen/redream) by inolen.
 
 ## License
-Redream is licensed under the GPLv3 license.
+Redcast is licensed under the GPLv3 license.
 It uses third party libraries that are each distributed under their own terms (see each library's license in deps).
