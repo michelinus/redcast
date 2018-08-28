@@ -7,4 +7,4 @@ build_script:
   - cd build
   - cmake -G "Visual Studio 15 Win64" ..
   - cd ..
-  - msbuild.exe build/redream.sln /t:redream /p:Configuration=Release /p:Platform=x64
+  - msbuild.exe build/redcast.sln /t:redcast /p:Configuration=Release /p:Platform=x64
