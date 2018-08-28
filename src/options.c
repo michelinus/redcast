@@ -84,10 +84,10 @@ DEFINE_PERSISTENT_OPTION_INT(key_b,        'c',               "B button mapping"
 DEFINE_PERSISTENT_OPTION_INT(key_x,        'x',               "X button mapping");
 DEFINE_PERSISTENT_OPTION_INT(key_y,        'z',               "Y button mapping");
 DEFINE_PERSISTENT_OPTION_INT(key_start,    ' ',               "Start button mapping");
-DEFINE_PERSISTENT_OPTION_INT(key_dup,      't',               "DPAD Up mapping");
-DEFINE_PERSISTENT_OPTION_INT(key_ddown,    'g',               "DPAD Down mapping");
-DEFINE_PERSISTENT_OPTION_INT(key_dleft,    'f',               "DPAD Left mapping");
-DEFINE_PERSISTENT_OPTION_INT(key_dright,   'h',               "DPAD Right mapping");
+DEFINE_PERSISTENT_OPTION_INT(key_dup,      'i',               "DPAD Up mapping");
+DEFINE_PERSISTENT_OPTION_INT(key_ddown,    'k',               "DPAD Down mapping");
+DEFINE_PERSISTENT_OPTION_INT(key_dleft,    'j',               "DPAD Left mapping");
+DEFINE_PERSISTENT_OPTION_INT(key_dright,   'l',               "DPAD Right mapping");
 DEFINE_PERSISTENT_OPTION_INT(key_joyx_neg, 'a',               "Joystick -X axis mapping");
 DEFINE_PERSISTENT_OPTION_INT(key_joyx_pos, 'd',               "Joystick +X axis mapping");
 DEFINE_PERSISTENT_OPTION_INT(key_joyy_neg, 'w',               "Joystick -Y axis mapping");
