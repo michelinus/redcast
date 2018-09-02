@@ -238,6 +238,7 @@ static int audio_init(struct host *host) {
   int success = audio_create_device(host);
   if (!success) {
     LOG_WARNING("audio_init failed to open audio device: %s", SDL_GetError());
+    MessageBox(0, "No sound card found or speakers detached.", "Sound Card Error", MB_OK);
     return 0;
   }
 
